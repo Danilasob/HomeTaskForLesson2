@@ -59,7 +59,7 @@ public class HomeTask2 {
                 text("Testirovchikkk Test"),
                 text("test@mail.ru"),
                 text("Other"),
-                text("89031812772"),
+                text("9031812772"),
                 text("27 February,1995"),
                 text("English"),
                 text("Sports, Reading, Music"),
