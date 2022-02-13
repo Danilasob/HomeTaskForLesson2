@@ -26,7 +26,7 @@ public class HomeTask2 {
         $("#userEmail").setValue("Test@mail.ru");  //Ввод почты
 
         $(byText("Other")).click();  //Выбор пола
-        $("#userNumber").setValue("89031812772");  //Ввод номера телефона
+        $("#userNumber").setValue("9031812772");  //Ввод номера телефона
 
         //Блок "Дата рождения"
         $("#dateOfBirthInput").click();
@@ -41,8 +41,7 @@ public class HomeTask2 {
         $(byText("Reading")).click();
         $(byText("Music")).click();
 
-        $("#uploadPicture").scrollTo();
-        $("#uploadPicture").uploadFromClasspath("img/1.jpeg");  //Загрузка файла
+        $("#uploadPicture").scrollTo().uploadFromClasspath("img/1.jpeg");  //Загрузка файла
 
         $("#currentAddress").setValue("Some address");  //Адрес
 
@@ -53,8 +52,7 @@ public class HomeTask2 {
         $(byText("Panipat")).click();
 
         //Отправка
-        $("#submit").scrollTo();
-        $("#submit").click();
+        $("#submit").scrollTo().click();
 
         //Ассерт
         $(".table-responsive").shouldHave(
