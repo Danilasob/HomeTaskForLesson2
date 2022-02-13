@@ -21,6 +21,7 @@ public class HomeTask2 {
         $(".main-header").shouldHave(text("Practice Form"));  //ассерт с текстовыми элементами
         $(byText("Student Registration Form"));  //ассерт заголовка
 
+        $("#close-fixedban").click();
         $("#firstName").setValue("Testirovchikkk");  //Ввод фамилии
         $("#lastName").setValue("Test");  //Ввод имени
         $("#userEmail").setValue("Test@mail.ru");  //Ввод почты
